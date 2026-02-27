@@ -1,0 +1,39 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# Qt generated files
+*.pro.user
+*.autosave
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*_autogen/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+notepadplusplus
+notepadplusplus-*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*~
+
+# Backup files
+*.bak
+
+# Package files
+*.deb
+*.rpm
